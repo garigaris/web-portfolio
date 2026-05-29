@@ -1,0 +1,15 @@
+baseURL = "https://garigaris.github.io/web-portfolio/"
+languageCode = "ru-ru"
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+title = "Веб-портфолио | Роман Потёмкин"
+theme = "blowfish"
+enableRobotsTXT = true
+summaryLength = 0
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
